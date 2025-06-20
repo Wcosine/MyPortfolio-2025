@@ -1,0 +1,53 @@
+[33mcommit c2a1eea918c3c0c1e4ff2b369c1e6e8c399eca41[m[33m ([m[1;36mHEAD[m[33m -> [m[1;32mmain[m[33m, [m[1;31morigin/main[m[33m)[m
+Author: Novia <yxweng975@gmail.com>
+Date:   Sat Jun 21 00:32:05 2025 +0800
+
+    移除 FontAwesome 套件與 external 設定
+
+[33mcommit 560707cd3e4624f4bc70479f967b809f1cc5587f[m
+Author: Novia <yxweng975@gmail.com>
+Date:   Sat Jun 21 00:16:27 2025 +0800
+
+    Fix Rollup external config for FontAwesome
+
+[33mcommit 043ee25084fb32491375f7acde7e8d1b68af329d[m
+Author: Novia <yxweng975@gmail.com>
+Date:   Sat Jun 21 00:15:02 2025 +0800
+
+    Add FontAwesome brands icons
+
+[33mcommit 5ba15d35e5c11b91dfe48a25ed120f7309838b03[m
+Author: Novia <yxweng975@gmail.com>
+Date:   Sat Jun 21 00:11:49 2025 +0800
+
+    adjust details.
+
+[33mcommit d146b4cea10d46b2cabcac021b9a8627e45d37d4[m
+Author: Novia <yxweng975@gmail.com>
+Date:   Fri Jun 20 22:32:03 2025 +0800
+
+    remove tailwind.config.js
+
+[33mcommit d8cbbe5ebf5a3efae81f69b3eaaa544ca9acdffd[m
+Author: Novia <yxweng975@gmail.com>
+Date:   Fri Jun 20 22:29:35 2025 +0800
+
+    add tailwind.config.js
+
+[33mcommit 56dabb25e1804a1a9366d441b16a604c390fad4c[m
+Author: Novia <yxweng975@gmail.com>
+Date:   Fri Jun 20 22:20:31 2025 +0800
+
+    fix: add missing fontawesome dependencies
+
+[33mcommit 2d53acd70bbc4b1a283f9eb8d6b6ef473b849c25[m
+Author: Novia <yxweng975@gmail.com>
+Date:   Fri Jun 20 22:16:48 2025 +0800
+
+    更新內容
+
+[33mcommit 390ac8bc8ff491d7a172bb676ebbc7cc2e1e0902[m
+Author: Novia <yxweng975@gmail.com>
+Date:   Fri Jun 20 22:05:40 2025 +0800
+
+    首次提交
