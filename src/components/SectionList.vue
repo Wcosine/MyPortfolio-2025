@@ -30,12 +30,12 @@ defineExpose({ sectionEl });
 
 <template>
   <section
-    class="list bg-white px-12 lg:px-36 md:px-24 sm:px-12 py-12"
+    class="list bg-white dark:bg-[#34495E] px-3 lg:px-36 md:px-24 py-12 mx-auto max-w-screen-xl"
     ref="sectionEl"
   >
     <h2 class="text-2xl font-bold mb-8">{{ title }}</h2>
     <div
-      :class="`grid gap-4 lg:${lgGridClass} md:${mdGridClass} sm:${smGridClass}`"
+      :class="`grid gap-4 sm:grid-cols-1 md:grid-cols-2 lg:${lgGridClass} md:${mdGridClass} sm:${smGridClass}`"
     >
       <CardComponent
         v-for="card in cards"

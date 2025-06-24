@@ -27,8 +27,10 @@ defineProps({
 
 <!-- Header.vue -->
 <template>
-  <div class="intro px-12 pt-20 pb-8 bg-orange-50 grid grid-cols-1 w-full">
-    <div class="content lg:w-148 md:w-96 text-gray-800 mx-auto">
+  <div class="intro px-12 pt-20 pb-8 bg-orange-50 w-full dark:bg-[#2C3E50]">
+    <div
+      class="content w-auto md:w-128 lg:w-lg text-gray-800 dark:text-[#FAF9F6] mx-auto"
+    >
       <h2 class="text-3xl font-extrabold my-4">{{ name }}</h2>
       <h6 class="font-bold mb-4">{{ subtitle }}</h6>
       <p class="leading-8 text-justify">{{ content }}</p>

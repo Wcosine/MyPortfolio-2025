@@ -3,14 +3,17 @@ import Modal from "../components/Modal.vue";
 import { ref, defineExpose } from "vue";
 
 // card相片
+// import selfPic from "../img/self-pic.jpg";
 import SectionList from "../components/SectionList.vue";
-import selfPic from "../img/self-pic.jpg";
 import html from "../img/html.png";
 import js from "../img/JS.png";
 import vue from "../img/vue.png";
 import Form from "../img/FormValidation.gif";
 import Todo from "../img/TodoList.gif";
+
 // modal相片
+import FormModal from "../img/FormValidation.png";
+import TodoModal from "../img/TodoList.png";
 import htmlModal from "../img/html-practice.png";
 import jsModal from "../img/JS-Practice.gif";
 import vueModal from "../img/RandomPassword.gif";
@@ -31,7 +34,7 @@ const featuredCards = [
     desc: "嘗試練習將檔案拆解成多個獨立元件製作，得以讓元件可以被重複使用，提升維護性。實作過程中，不僅練習了元件間資料傳遞的方式，像是props、emits，也同時也更深入理解元件設計的思維邏輯。",
     intro: "練習元件資料傳遞的方式，並進一步探索元件拆分與設計的邏輯。",
     image: Form,
-    modalImage: htmlModal,
+    modalImage: FormModal,
     href: "https://fanciful-muffin-ce7668.netlify.app/",
     tags: ["Vue", "作品"],
   },
@@ -40,7 +43,7 @@ const featuredCards = [
     desc: "這是我在初期嘗試Vue時實作的小練習，透過watch監聽資料變化、onMounted控制資料存取，並練習運用.push、.fliter方法，處理使用者的資料。",
     intro: "透過基礎的小練習，熟悉對Vue Composition API的操作",
     image: Todo,
-    modalImage: htmlModal,
+    modalImage: TodoModal,
     href: "https://unique-dasik-0c0ac5.netlify.app/",
     tags: ["Vue", "作品"],
   },
@@ -68,7 +71,7 @@ const practiceCards = [
   {
     title: "Vue 隨機密碼產生器",
     desc: "使用者可選擇密碼長度，即時生成符合條件的密碼。練習目標：熟悉 Vue 的 v-model、computed、methods 與條件輸出。",
-    intro: "運用 Vue 計算屬性實作密碼生成器",
+    intro: "運用 Vue 計算屬性實作密碼生成器。",
     image: vue,
     modalImage: vueModal,
     href: "https://neon-praline-21872d.netlify.app/",

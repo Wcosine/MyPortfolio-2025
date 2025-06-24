@@ -36,7 +36,7 @@ const handleBackdropClick = () => {
       @click.self="handleBackdropClick"
     >
       <div
-        class="outer bg-white pb-6 rounded-lg w-3/4 max-w-md relative max-h-[80vh] overflow-y-auto overscroll-contain"
+        class="outer bg-white pb-6 rounded-lg w-3/4 max-w-md relative max-h-[80vh] overflow-y-auto overscroll-contain dark:text-[#242424]"
       >
         <div class="bg-gray-100 p-6 relative">
           <h2 class="text-xl font-bold">{{ card?.title }}</h2>
